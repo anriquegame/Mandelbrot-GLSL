@@ -7,7 +7,12 @@ SET LIB_PATH=libs\lib-mingw-w64
 
 echo Compiling main.cpp...
 
-g++ main.cpp src\glad.c -I"%INCLUDE_PATH%" -L"%LIB_PATH%" -lglfw3 -lopengl32 -lgdi32 -static-libgcc -static-libstdc++ -mwindows -o app.exe
+g++ main.cpp src\glad.c ^
+    -I"%INCLUDE_PATH%" ^
+    -L"%LIB_PATH%" ^
+    -lglfw3 -lopengl32 -lgdi32 ^
+    -static -static-libgcc -static-libstdc++ -mwindows ^
+    -o app.exe
 
 IF %ERRORLEVEL% NEQ 0 (
     echo.
