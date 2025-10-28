@@ -25,7 +25,7 @@ void main()
             }
         }
         else{
-            FragColor = vec4(1.0, 1.0, 1.0, 1.0); // white is inside mandelbrot
+            FragColor = vec4(1.0, 1.0, 1.0, 1.0); // white is outside mandelbrot
             break;
         }
     }
