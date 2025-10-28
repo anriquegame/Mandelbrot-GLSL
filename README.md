@@ -22,7 +22,8 @@ If you modify any of the shader files, simply **close and reopen `app.exe`** to 
 
 | Simple Visualization | Shader with Code in Background |
 |----------------------|--------------------------------|
-| <img width="400" alt="Simple Mandelbrot" src="https://github.com/user-attachments/assets/26d62697-2623-4e1b-ab24-4e0847620c6e" /> | <img width="600" alt="Shader with Code in Background" src="https://github.com/user-attachments/assets/c442fd35-4d22-41f5-9d96-266a480745c2" /> |
+| <img width="400" alt="Simple Mandelbrot" src="https://github.com/user-attachments/assets/26d62697-2623-4e1b-ab24-4e0847620c6e" /> | <img width="600" alt="Shader with Code in Background" src="https://github.com/user-attachments/assets/37356302-4631-4dda-88b9-c3bbc93a05d5" /> |
+
 
 
 ---
