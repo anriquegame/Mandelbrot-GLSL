@@ -14,7 +14,7 @@ void main()
     float zimag = uv.y;
     for (float i = 0; i <= max_i; i++){
         if (zreal*zreal + zimag*zimag <= 4.0){
-            // z = (z)**2 + real|uv.x + imag|uv.y = (zreal + zimag)**2 + uv.x + uv.x = zreal*zreal - zimag*zimag + 2*zreal*zimag + uv.x + uv.y
+            // z = (z)**2 + real|uv.x + imag|uv.y = (zreal + zimag)**2 + uv.x + uv.y = zreal*zreal - zimag*zimag + 2*zreal*zimag + uv.x + uv.y
             float nzreal = zreal*zreal - zimag*zimag + uv.x;
             float nzimag = 2*zreal*zimag + uv.y;
             zreal = nzreal;
